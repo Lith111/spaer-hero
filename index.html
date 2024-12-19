@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Your SuperHero</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="all.min.css"> 
+    <div class = "main-wrapper">
+        <div class = "app">
+            <!-- app header -->
+            <div class = "app-header">
+                <h2 class = "app-header-title">Super<span>Hero.</span></h2>
+                <form class = "app-header-search">
+                    <input type = "text" class = "form-control" placeholder="Search your superhero here ..." name = "search">
+                    <button type = "submit" class = "search-btn">
+                        <i class = "fas fa-search"></i>
+                    </button>
+                    <div class = "search-list" id = "search-list">
+                        <!-- <div class = "search-list-item">
+                            <img src = "Movie-poster-Ant-Man-Paul-Rudd-Scott-Lang.webp">
+                            <p>ant man</p>
+                        </div> -->
+                    </div>
+                </form>
+            </div>
+            <!-- end of app header -->
+
+            <div class = "app-body">
+                <div class = "app-body-content">
+                    <!-- app body thumbnail -->
+                    <div class = "app-body-content-thumbnail">
+                        <img src = "Movie-poster-Ant-Man-Paul-Rudd-Scott-Lang.webp">
+                    </div>
+                    <!-- end of app body thumbnail -->
+                    
+                    <div class = "app-body-content-list">
+                        <div class = "name">ANT-MAN</div>
+
+                        <!-- tabs head -->
+                        <div class = "app-body-tabs-head">
+                            <button type = "button" class = "tab-head-single" data-id = "1">
+                                <span>powerstats</span>
+                            </button>
+                            <button type = "button" class = "tab-head-single" data-id = "2">
+                                <span>biography</span>
+                            </button>
+                            <button type = "button" class = "tab-head-single" data-id = "3">
+                                <span>appearance</span>
+                            </button>
+                            <button type = "button" class = "tab-head-single" data-id = "4">
+                                <span>connections</span>
+                            </button>
+                        </div>
+                        <!-- end of tabs head -->
+
+                        <!-- tabs body -->
+                        <div class = "app-body-tabs-body">
+                            <!-- powerstats tab -->
+                            <ul class = "tab-body-single powerstats">
+                                <li>
+                                    <div>
+                                        <i class = "fa-solid fa-shield-halved"></i>
+                                        <span>intelligence</span>
+                                    </div>
+                                    <span>75</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class = "fa-solid fa-shield-halved"></i>
+                                        <span>strength</span>
+                                    </div>
+                                    <span>18</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class = "fa-solid fa-shield-halved"></i>
+                                        <span>speed</span>
+                                    </div>
+                                    <span>17</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class = "fa-solid fa-shield-halved"></i>
+                                        <span>durability</span>
+                                    </div>
+                                    <span>40</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class = "fa-solid fa-shield-halved"></i>
+                                        <span>power</span>
+                                    </div>
+                                    <span>53</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class = "fa-solid fa-shield-halved"></i>
+                                        <span>combat</span>
+                                    </div>
+                                    <span>30</span>
+                                </li>
+                            </ul>
+                            <!-- end of powerstats tab -->
+
+                            <!-- biography tab -->
+                            <ul class = "tab-body-single biography">
+                                <li>
+                                    <span>full name</span>
+                                    <span>Scott Lang</span>
+                                </li>
+                                <li>
+                                    <span>alert-egos</span>
+                                    <span>Alter Egos Found</span>
+                                </li>
+                                <li>
+                                    <span>aliases</span>
+                                    <span>Myrmidon,Scott Edward Harris Lang</span>
+                                </li>
+                                <li>
+                                    <span>place-of-birth</span>
+                                    <span> Coral Gables, Florida</span>
+                                </li>
+                                <li>
+                                    <span>first-apperance</span>
+                                    <span> Avengers Vol 1 #181 (March, 1979)</span>
+                                </li>
+                                <li>
+                                    <span>publisher</span>
+                                    <span>Marvel Comics</span>
+                                </li>
+                            </ul>
+                            <!-- end of biography tab -->
+
+                            <!-- appearance -->
+                            <ul class = "tab-body-single appearance">
+                                <li>
+                                    <span>
+                                        <i class = "fas fa-star"></i> gender
+                                    </span>
+                                    <span>Male</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class = "fas fa-star"></i> race
+                                    </span>
+                                    <span>human</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class = "fas fa-star"></i> height
+                                    </span>
+                                    <span>6' 0''</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class = "fas fa-star"></i> weight
+                                    </span>
+                                    <span>190 lb</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class = "fas fa-star"></i> eye-color
+                                    </span>
+                                    <span>blue</span>
+                                </li>
+                                <li>
+                                    <span>
+                                        <i class = "fas fa-star"></i> hair-color
+                                    </span>
+                                    <span>blond</span>
+                                </li>
+                            </ul>
+                            <!-- end of appearance -->
+
+                            <!-- connections -->
+                            <ul class = "tab-body-single connections">
+                                <li>
+                                    <span>group--affiliation</span>
+                                    <span>Ant-Man Security Solutions; formerly Future Foundation (leader), Fantastic Four (leader), Defenders, Avengers, Heroes For Hire, Stark Industries</span>
+                                </li>
+                                <li>
+                                    <span>relatives</span>
+                                    <span>Cassandra Eleanor Lang (daughter), Ruth (sister), Carl (brother-in-law), Peggy Rae (ex-wife)</span>
+                                </li>
+                            </ul>
+                            <!-- end of connections -->
+                        </div>
+                        <!-- end of tabs body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="all.min.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>
